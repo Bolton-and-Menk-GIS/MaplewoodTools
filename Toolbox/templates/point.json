@@ -1,0 +1,32 @@
+{
+    "displayFieldName": "",
+    "fieldAliases": {
+        "OBJECTID": "OBJECTID",
+        "Source": "Source"
+    },
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "fields": [{
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID"
+    }, {
+        "name": "Source",
+        "type": "esriFieldTypeString",
+        "alias": "Source",
+        "length": 4
+    }],
+    "features": [{
+        "attributes": {
+            "OBJECTID": 1,
+            "Source": null
+        },
+        "geometry": {
+            "x": -10358990.6622,
+            "y": 5621151.6737999991
+        }
+    }]
+}

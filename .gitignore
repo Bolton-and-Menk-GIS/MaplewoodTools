@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# ignore these local files for project
+template_10_3.mxd
+
 # Distribution / packaging
 .Python
 env/

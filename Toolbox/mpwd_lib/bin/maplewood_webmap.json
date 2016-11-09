@@ -1,0 +1,47 @@
+{
+    "layoutOptions": {
+        "titleText": "Permits"
+    },
+    "operationalLayers": [{
+        "url": "http://gis.maplewoodmn.gov/arcgis/rest/services/Projects/Zoning/MapServer",
+        "title": "Maplewood Zoning",
+        "visibility": true,
+        "opacity": 0.5,
+        "visibleLayers": [0],
+    }, {
+        "url": "https://maps.co.ramsey.mn.us/arcgis/rest/services/MapRamsey/MapRamseyOperationalLayersAll/MapServer",
+        "title": "Ramsey County Data",
+        "visibility": true
+    }, {
+        "url": "http://gis.bolton-menk.com/bmigis/rest/services/MPWD/Permits/FeatureServer/1",
+        "visibility": true
+    }, {
+        "url": "http://gis.bolton-menk.com/bmigis/rest/services/MPWD/Permits/FeatureServer/0",
+        "visibility": true
+    }, ],
+    "baseMap": {
+        "title": "Shared Imagery Basemap",
+        "baseMapLayers": [{
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+        }, ]
+    },
+    "exportOptions": {
+        "outputSize": [
+            1500,
+            1500
+        ]
+    },
+    "mapOptions": {
+        "extent": {
+            "xmin": -10357891.909548426,
+            "ymin": 5622353.1977390619,
+            "xmax": -10356473.914621098,
+            "ymax": 5623775.9693063544,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+    },
+    "version": "1.4"
+}
